@@ -1,0 +1,9 @@
+=== TASKS TO DO ===
+
+1. Change the name and email in the navigation drawer
+2. Add the NoteListFragment to the fragmentContainer FrameLayout
+3. Implement a snackbar to show a visual confirmation of current note status
+4. Add an Intent to open the add new note screen (AddEditActivity)
+5. Add an icon button to the toolbar in AddEditActivity to save the note
+6. Add an Intent to open the note details screen (NoteDetailsActivity). Pass a note ID through to the details activity
+7. Add a "Date added" label at the top of the note layout and populate it with the date from the note object
