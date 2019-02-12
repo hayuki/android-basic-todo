@@ -54,4 +54,5 @@ class NoteListContentPresenter(private val updateFavouriteStatusUseCase: UpdateF
             else view?.showNotes(it)
         }, {})
     }
+    
 }

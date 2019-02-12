@@ -97,6 +97,11 @@ class NoteListActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         return true
     }
     
+    /** TODO [8] Override onCreateOptionsMenu and onOptionsItemSelected methods
+     *  Inflate the menu resource file in the onCreateOptionsMenu method
+     *  Find the menu item id and call presenter.sortNotes(this)
+     */
+    
     override fun onDestroy() {
         presenter.destroy()
         super.onDestroy()
